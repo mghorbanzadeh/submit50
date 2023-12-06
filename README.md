@@ -1,5 +1,5 @@
 # Simple Calculator
-## [Video Demo]([https://youtu.be/](https://youtu.be/7ZY3pLeXXPc?si=_hXirNKpvr1JrueM))
+## [Video Demo](https://youtu.be/7ZY3pLeXXPc?si=_hXirNKpvr1JrueM)
 ### Description:
 This program performs mathematical calculations on two or more operands based on the type of input operator
 

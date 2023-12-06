@@ -1,46 +1,30 @@
-# Usage
+# Simple Calculator
+## [Video Demo](https://youtu.be/)
+### Description:
+This program performs mathematical calculations on two or more operands based on the type of input operator
 
-## English
+#### How the Program Works?
+This program first takes the operator from the user by entering the corresponding letter:
+('Enter 'a' for addition
+Enter 's' for substraction
+Enter 'm' for multiplication
+Enter 'd' for division
+Enter 'q' to quit ')
+Then it takes two numbers from the input and applies mathematical operations on them.
+Then it asks the user whether to add another number for the performed mathematical operation or not.(y/n)
+If 'y' is entered, the user can enter the next number, and if 'n' is entered, the mathematical calculation ends with the selected operator.
 
+To end the execution of the program, the user must enter the letter 'q'.
+
+[!NOTE] The user can only select one operator in each mathematical operation.
+
+#### Usage
+Run the program python script `project.py` with [python](https://www.python.org/).
 ```
-submit50 problem
+python project.py
 ```
-
-### Spanish
-
+Test the program python script `test_project.py` with [pytest](https://docs.pytest.org/en/7.2.x/).
 ```
-LANGUAGE=es submit50 problem
-```
+pytest test_project.py
 
-# Internationalizing
 
-## Adding a new language
-
-1. First, ensure that `babel` is installed and that `submit50` is installed in development mode:
-
-        pip install babel
-        pip install -e .
-
-2. Generate the translation template:
-
-        python setup.py extract_messages
-
-3. Generate the `.po` file for the desired language:
-
-        python setup.py init_catalog -l <LANG>
-
-    where `<LANG>` is the code of the language you want to translate (e.g., `es` for Spanish, `en` for English, etc.)
-
-4. Then, add the translations to the newly created `submit50/locale/<LANG>/LC_MESSAGES/submit50.po`
-
-5. Finally, compile the new translations:
-
-        python setup.py compile_catalog
-
-    and test them:
-
-        LANGUAGE=<LANG> submit50 <PROBLEM>
-
-## Updating an existing language
-
-Follow the steps described in the above section, but instead of running `python setup.py init_catalog -l <LANG>`, run `python setup.py update_catalog -l <LANG>`.

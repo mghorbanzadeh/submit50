@@ -28,3 +28,17 @@ Test the program python script `test_project.py` with [pytest](https://docs.pyte
 pytest test_project.py
 
 
+After successfully running the program,  you can perform simple calculations by selecting the operator.
+
+![Input Image]
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/input1.png)
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/input2.png)
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/input3.png)
+
+![Output Image]
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/output1.png)
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/output2.png)
+(https://github.com/mghorbanzadeh/submit50/blob/b3095824a6894124522bf4e75729a4193753c699/submit50/output3.png)
+
+
+

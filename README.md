@@ -26,7 +26,7 @@ python project.py
 Test the program python script `test_project.py` with [pytest](https://docs.pytest.org/en/7.2.x/).
 ```
 pytest test_project.py
-
+```
   After successfully running the program,  you can perform simple calculations by selecting the operator.
 
   ![Input Image]
